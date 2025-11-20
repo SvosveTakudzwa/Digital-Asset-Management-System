@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Digital-Asset-Management-System
 A web-based platform for registering, tracking, and verifying student-owned digital devices. Generates QR-coded asset cards, streamlines campus entry/exit checks, and provides an admin dashboard for security validation and asset management. Built to streamline the process of registering student-owned digital assets and improving security checks at campus entry/exit points.
 
@@ -144,5 +143,3 @@ Project Group — Harare Institute of Technology
 - Tinotenda B. Madake  
 - Blessing A. P. Chinyama  
 - Tavonga D. Chauruka
-
->>>>>>> 3565165 (Initial sourcecode push)
