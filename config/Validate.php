@@ -207,14 +207,14 @@ class Validate
 
         $mail = new PHPMailer(true);
         $mail->isSMTP();
-        $mail->Host = "smtp.gmail.com"; // use smtp.example.com
+        $mail->Host = ""; // use smtp.example.com
         $mail->SMTPAuth = true;
         $mail->SMTPSecure = 'ssl';
         $mail->Port = 465;
         $mail->isHTML(true);
-        $mail->Username   = 'admiretakudzwasvosve@gmail.com'; //SMTP username
-        $mail->Password   = 'cyyutncgjsuutusp';
-        $mail->setFrom('admiretakudzwasvosve@gmail.com', "Asset QR Code");
+        $mail->Username   = ''; //SMTP username
+        $mail->Password   = '';
+        $mail->setFrom('', "Asset QR Code");
         $mail->addAddress($email, '');
         $mail->Subject = 'ATTACHED IS YOUR DIGITAL ASSET QR CODE';
         $mail->Body = $msg;
