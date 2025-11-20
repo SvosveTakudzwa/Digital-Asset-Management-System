@@ -9,6 +9,16 @@ The platform eliminates manual paper-based forms, reduces queues, and minimizes 
 
 ## Features
 
+### Key Features:
+- **Asset Management:** Manage student assets digitally with detailed information including descriptions, models, and serial numbers.
+- **QR Code Integration:** Automatically generates QR codes for registered assets, facilitating easy access to digital asset cards.
+- **Email Integration:** Sends QR codes to student email addresses upon asset registration, enabling quick retrieval and printing of digital asset cards.
+- **User Authentication:** Secure login system using PHP and MySQL to manage user access and permissions.
+- **PDF Generation:** Utilizes libraries like DOMPDF for generating printable versions of asset cards.
+
+## Packages Used:
+Bootstrap 4, Chillerlan, Composer, FontAwesome, jQuery, DataTables, DOMPDF, JSignature, Masterminds, Phenx, PHPMailer, PHPQRCode, Sabberworm.
+
 ### Student Functions
 - Online registration of digital assets (laptops, phones, tablets, accessories).  
 - Ability to upload device details and identify key asset attributes.  
@@ -135,20 +145,4 @@ Project Group — Harare Institute of Technology
 - Blessing A. P. Chinyama  
 - Tavonga D. Chauruka
 
-=======
-# Digital Asset Card Management System (HIT0200)
-
-This repository hosts the source code for a university second-year project developed as part of HIT0200. The Digital Asset Card Management System is a web application designed to modernize traditional file-based asset management systems using HTML, CSS, Bootstrap 4, and Vanilla PHP.
-
-## Key Features:
-
-- **Asset Management:** Manage student assets digitally with detailed information including descriptions, models, and serial numbers.
-- **QR Code Integration:** Automatically generates QR codes for registered assets, facilitating easy access to digital asset cards.
-- **Email Integration:** Sends QR codes to student email addresses upon asset registration, enabling quick retrieval and printing of digital asset cards.
-- **User Authentication:** Secure login system using PHP and MySQL to manage user access and permissions.
-- **PDF Generation:** Utilizes libraries like DOMPDF for generating printable versions of asset cards.
-
-## Packages Used:
-
-Bootstrap 4, Chillerlan, Composer, FontAwesome, jQuery, DataTables, DOMPDF, JSignature, Masterminds, Phenx, PHPMailer, PHPQRCode, Sabberworm.
 >>>>>>> 3565165 (Initial sourcecode push)
