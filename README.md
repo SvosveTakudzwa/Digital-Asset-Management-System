@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Digital-Asset-Management-System
 A web-based platform for registering, tracking, and verifying student-owned digital devices. Generates QR-coded asset cards, streamlines campus entry/exit checks, and provides an admin dashboard for security validation and asset management. Built to streamline the process of registering student-owned digital assets and improving security checks at campus entry/exit points.
 
@@ -134,3 +135,20 @@ Project Group — Harare Institute of Technology
 - Blessing A. P. Chinyama  
 - Tavonga D. Chauruka
 
+=======
+# Digital Asset Card Management System (HIT0200)
+
+This repository hosts the source code for a university second-year project developed as part of HIT0200. The Digital Asset Card Management System is a web application designed to modernize traditional file-based asset management systems using HTML, CSS, Bootstrap 4, and Vanilla PHP.
+
+## Key Features:
+
+- **Asset Management:** Manage student assets digitally with detailed information including descriptions, models, and serial numbers.
+- **QR Code Integration:** Automatically generates QR codes for registered assets, facilitating easy access to digital asset cards.
+- **Email Integration:** Sends QR codes to student email addresses upon asset registration, enabling quick retrieval and printing of digital asset cards.
+- **User Authentication:** Secure login system using PHP and MySQL to manage user access and permissions.
+- **PDF Generation:** Utilizes libraries like DOMPDF for generating printable versions of asset cards.
+
+## Packages Used:
+
+Bootstrap 4, Chillerlan, Composer, FontAwesome, jQuery, DataTables, DOMPDF, JSignature, Masterminds, Phenx, PHPMailer, PHPQRCode, Sabberworm.
+>>>>>>> 3565165 (Initial sourcecode push)

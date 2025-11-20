@@ -1,0 +1,16 @@
+*. Fix the No. of deleted assets to be recorded dynamically in index.php
+*. Fix the No. of blacklisted assets to be recorded dynamically in index.php
+*. Fix the number of missing assets to be automatically 
+fetched from database on index.php
+*. Print the recently registered assets on generate report in index.php using MS Excel
+*. Display messages upon successful registration of assets, users etc in database
+*. Display messages upon failure of registration of assets, users etc in database
+*. Dynamically update data in the table in user-audit-logs.php upon 
+login/logoff of user in system.
+*. Print recent logs of users on generate report in user-audit-logs.php using MS Excel
+*. Print recent logs of a particular user on generate report in 
+view-user-logs.php using MS Excel
+*. Fix the number of registered assets to dynamically update once new asset is registered
+*. Fix the number of de-registered(deleted) assets to dynamically update once new asset is de-registered
+*. Fix the number of blacklisted/missing assets to dynamically update once new asset is reported missing
+  
